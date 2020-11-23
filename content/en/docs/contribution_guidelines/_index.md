@@ -15,7 +15,7 @@ Before you can contribute, you must:
 * Create a GitHub account.
 * Sign the [Axway Contributor License Agreement (CLA)](https://cla.axway.com/) using your GitHub account email. This is required just once and it should only take a few minutes.
 * Read this page in its entirety.
-* Familiarize yourself with the [Markdown guidelines](/docs/contribution_guidelines/writing_markdown/) and [best practices for developer documentation](/docs/contribution_guidelines/bestpracticedevdoc/).
+* Familiarize yourself with the [Markdown guidelines](/docs/contribution_guidelines/writing_markdown/), [FAQ for Technical Writers](/docs/contribution_guidelines/faq4tws/), and [best practices for developer documentation](/docs/contribution_guidelines/bestpracticedevdoc/).
 
 {{< alert title="Caution" color="warning">}}
 All contributions to this project are public, which means that they are accessible to anyone on the Internet. This includes content in pull requests that are not yet merged or published.
