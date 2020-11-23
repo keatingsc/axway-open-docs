@@ -7,20 +7,19 @@ description: >
     Follow these best practices when developing Axway product documentation.
 ---
 
-## Organizing your documentation
+## Structure your documentation
 
-Present your documentation in a way that it is easy to read and helpful for customers.
+It is important to structure your content in an easy-to-navigate manner to retain the interest of your audience. A good structure also improves searchability and discoverability.  
 
-### Navigation menus hierarchical structure
+### Navigation structure
 
-Clear navigation is highly usable, it helps the user to navigate through your website. Think about what are the main topics that the user will be searching for, and under those, what specific questions or documents they will be looking for.
-
-Organize similar type of contents under the same menu. For example, you can place all Installation and Upgrade manuals under the **Installation instructions** menu. This makes it easier to find all information related to installation in one place.
-
-More than three levels can make the menu confusing to navigate.
+To develop a clear visual hierarchy on your website:
+* Organise menus by topic.
+* Group similar types of content under the same menu.
+* Use a maximum of two levels of submenu.
 
 {{% alert title="Note" %}}
-Although it is a good practice to have a well-structured menu hierarchy to help users when they are navigating in your documentation website, have in mind that users usually land on a page from a search  result. In this case, the order of the menu is not relevant.
+Users can land on a page from a search result. In this case, the menu hierarchy can provide context.
 {{% /alert %}}
 
 Example:
@@ -30,30 +29,73 @@ Example:
 
 ### Make the documentation discoverable
 
-Documentation is only as helpful as it is easy to find. Include documentation in Google search engine to help users discover the contents and improve the documentation visibility on search engines.
+Documentation should be searchable and easy to find. It is important to ensure documentation visibility on search engines.
 
-Some recommendations for using search engine optimization (SEO):
-
-* Create short, unique, and accurate page titles
-* The navigation of a website helps search engines to understand what content is important
-* Follow the recommendations on [Use meaningful link text](#use-meaningful-link-text) to create link text for URLs
+Some recommendations for using search engine optimization (SEO) include:
+* Create short, unique, and accurate page titles.
+* Link the order of menus to the importance of the content.
+* Follow the recommendations on [Use meaningful link text](#use-meaningful-link-text) to create link text for URLs.
 
 ## Writing documentation
 
-The following sections help to provide and organize more in-depth information in your documentation.
+Organise your content in a logical order, including the following sections as a guide.
 
-### Add a get started
+### Getting started
 
-Add a get started section to introduce your product and detail the first steps users need to start using the product.
+Introduce your product and describe the first steps users need to complete.
 
 Example:
 
 * [Getting Started with Amazon API Gateway](https://docs.aws.amazon.com/apigateway/latest/developerguide/getting-started.html)
-* [Getting Started with](https://docs.docker.com/get-started/)
+* [Getting Started with Docker](https://docs.docker.com/get-started/)
 
-### Add a reference
+### Tutorials
 
-The reference section aims to document some particular parts of the software in more detail. It should provide the content to support the performance of a task. Its audience are users who are familiar with the software but need more details or a quick guidance. You can add technical references of the software’s code, functions, APIs, CLI, parameters and so on.
+Tutorials lead a reader through a series of steps to complete a defined task.
+
+Example:
+
+* [Create a Tyk On Premise API](https://tyk.io/docs/get-started/with-tyk-on-premise/tutorials/tyk-on-premises-pro/create-api/)
+* [Kubernetes Basics](https://kubernetes.io/docs/tutorials/kubernetes-basics/)
+
+### How-to guides
+
+How-to guides help intermediate or experienced users to solve a real-world task using the software.
+
+Example:
+
+* [Tyk Planning for Production](https://tyk.io/docs/deploy-tyk-premise-production/)
+* [Assign-memory-resource in Kubernetes](https://kubernetes.io/docs/tasks/configure-pod-container/assign-memory-resource/)
+
+### Videos
+
+Videos and screencasts can quickly demonstrate how to complete a task.
+
+## Code samples and scripts
+
+Code samples and downloadable scripts help users get up and running quickly.
+
+### Add code samples
+
+Small snippets of code help users understand a previously explained concept. Snippets can also be used to demonstrate the syntax of attributes or parameters.
+
+Example:
+
+* [Apache Configuration](https://httpd.apache.org/docs/2.4/sections.html)
+* [Oracle Create and Deploy Replication Nodes](https://docs.oracle.com/en/database/other-databases/nosql-database/19.5/admin/create-and-deploy-replication-nodes.html)
+
+### Add downloadable scripts
+
+The sample could also be downloadable, which is less error-prone than copying and pasting.
+
+Example:
+
+* [A Sample: Array of JSON Documents](https://docs.oracle.com/en/database/other-databases/nosql-database/19.5/full-text-search/appa-json-array.html).
+* [You can find a few example schema files in Autopilot Templates repo on GitHub](https://www.twilio.com/docs/autopilot/twilio-autopilot-cli#schema-files).
+
+### Reference material
+
+Include references to the software’s code, functions, APIs, CLI, and parameters.
 
 Example:
 
@@ -63,141 +105,70 @@ Example:
 * [Kubernetes reference](https://kubernetes.io/docs/reference/)
 * [Oracle Administrator’s Guide](https://docs.oracle.com/en/database/other-databases/nosql-database/19.5/admin/admin-cli-reference.html)
 
-### Add a glossary
+### Glossary
 
-The glossary defines all the terms that might be unique to your company or product. In some cases, the user’s understanding of the documentation might depend on the clarity and alignment of specific terms.
+A glossary defines all the terms specific to your company or product.
 
 Example:
 
 * [AWS Glossary](https://docs.aws.amazon.com/general/latest/gr/glos-chap.html)
 * [Docker Glossary](https://docs.docker.com/glossary/)
 
-### Add tutorials
-
-Tutorials are lessons that walk a reader through a series of steps to complete a procedure. A tutorial shows how to accomplish a goal that is larger than a single task.
-
-Example:
-
-* [Tyk Create an API](https://tyk.io/docs/get-started/with-tyk-on-premise/tutorials/tyk-on-premises-pro/create-api/)
-* [Kubernetes basics](https://kubernetes.io/docs/tutorials/kubernetes-basics/)
-
-### Add how-to guides
-
-How-to guides assume that users already possess some basic knowledge of features, tools, and of how to perform simple tasks. They help intermediate or experienced users to solve a real-world task using the software.
-
-Example:
-
-* [Tyk Planning for Production](https://tyk.io/docs/deploy-tyk-premise-production/)
-* [kubernetes Assign-memory-resource](https://kubernetes.io/docs/tasks/configure-pod-container/assign-memory-resource/)
-
-### Add videos
-
-Producing a video is a lengthy and costly task. Videos can get obsolete very quickly, specially when you show screens.
-
-Nevertheless, in Axway, we've been receiving more and more feedback from customers asking for videos to help them to use our products. Hence, it is worth adding videos to complement complex procedures, where they can guide and help the user to progress and be successful when trying to accomplish a task.
-
-## Code samples and scripts
-
-Code samples and downloadable scripts help the user to get up and running fast. The code must be followed by an explanation on how to use it to achieve a goal.
-
-### Add code samples
-
-Code samples are small snippets of code to help the user to understand a concept previously explained. They can also be used to demonstrate the syntax of attributes or parameters.
-
-Example:
-
-* [Apache Configuration](https://httpd.apache.org/docs/2.4/sections.html)
-* [Oracle Create and Deploy Replication Nodes](https://docs.oracle.com/en/database/other-databases/nosql-database/19.5/admin/create-and-deploy-replication-nodes.html)
-
-### Add downloadable scripts
-
-Provide code examples in a way that customers can copy and paste and try out your product. The sample could also be downloadable, which is less error-prone than copying and pasting.
-
-Example:
-
-* [A Sample: Array of JSON Documents](https://docs.oracle.com/en/database/other-databases/nosql-database/19.5/full-text-search/appa-json-array.html).
-* [You can find a few example schema files in Autopilot Templates repo on GitHub](https://www.twilio.com/docs/autopilot/twilio-autopilot-cli#schema-files).
-
-## Review your work
-
-Quality documentation must be continuously reviewed and improved.
-
-### Delete dead documentation
-
-Old, outdated, non-used guides can misinform and slow down the user experience with your product. They can show results in the search, which are not relevant or correct anymore.
-
-### Do not duplicate information
-
-Duplicated content creates inconsistency and frustration, and it is hard to maintain.
-
-* Record the information once where it enhances the work the most
-* Link to information about a common technology or process instead of rewriting it in your own words
-
 ## Writing style
 
-Follow these guidelines to make your content more concise and clearer.
+Follow these guidelines to write clear and concise documentation.
 
-### Page length
+### Topic-based writing
 
-To determine the appropriate length for you page consider the following:
+Write modular sections of content that cover a specific subject with a singular purpose, for example, a conceptual topic that provides an overview, or a procedural topic that explains how to accomplish a task.
 
-* Keep all required information to complete a task in one single page, so users don't need to jump back and forth between pages to achieve their goal
-* Users don't have to scroll all the way up or down the page to find information, they can use a right-side menu (like the one used in Axway open docs pages) to navigate the content
-* Having all related content in one page makes it easier to find information with a `Ctrl+F` search
+* Write topic-based content that describes how to complete a singular task.
+* Group related topics.
+* Use the right-side menu to navigate the topics.
 
 ### Be minimalist
 
 Find a balance between no documentation and excessive documentation.
 
-* Make documentation skimmable to help users find the content they need quickly
 * Action-oriented headings (strong, clear verbs)
-* Remember that users scan in F-Shaped pattern
-* Break up the text often
-* First 3-5 words of every paragraph are the most important
 * Use bullet lists
-* Use variations in typeface (links, bold, etc)
 * Use code snippets
 * Use screenshots sparingly
 * Use animated gifs
 
 ### Use meaningful link text
 
-Effective link text helps the user to understand where each link leads and decide whether they want to click the link or not.
+Write effective link text to help users understand where each link leads.
 
-Observe these guidelines to improve user experience and accessibility.
-
-* Do not paste the actual URL in the page as this does not read well, specially for screen readers (accessibility)
-* Do not use **Click here**, it is bad for SEO and does not describe the target
-* Use meaningful words or phrases in the link text for URLs to better represent the content of the destination
+* Do not paste the URL in the page - this can cause accessibility issues especially for screen readers.
+* Do not use **Click here**, as this does not describe the target and negatively impacts SEO.
+* Use meaningful words or phrases in the link text for URLs.
 
 ### Do not overuse tables
 
-Not all analyses or results warrant a table or image. Some simple results are best stated in a simple and short paragraph.
+Use tables as quick references. Overly complex tables may be difficult to interpret, so strive for simplicity.
 
-Tables can be used as quick references and can reveal trends, patterns, or relationships that might otherwise be difficult to grasp in plain-text format. They permit rapid access to and relatively easy comparison of information. Overly complicated tables may be difficult to understand, so strive for simplicity, for example, table cells with single paragraphs. Complex tables can be a challenge for adaptive technology users (users of screen reader software).
+## Review your work
 
-### Do not overuse screenshots
+Aim to continuously improve your documentation; include doc reviews in each iteration.
 
-Screenshots are hard to maintain, and if they aren't up to date they can be misleading.
+### Version control
 
-Too many unnecessary screenshots can also clutter the page.
+Ensure the documentation accurately reflects the functionality of the current release.
 
-If you can present your results clearly in a few short sentences, or in a list of steps, this means that an image is probably unnecessary.
+### Do not duplicate information
+
+Duplicated content can introduce inconsistencies and increase maintenance overhead. To avoid duplicating content, consider reusing content and referencing.  
 
 ## Reference articles
 
 * [Core Practices for Agile/Lean Documentation](http://www.agilemodeling.com/essays/agileDocumentationBestPractices.htm)
-* [How to write documentation for users that don't read](https://kevin.burke.dev/slides/documentation/)
 * [Chromium Documentation Best Practices](https://chromium.googlesource.com/chromium/src/+/master/docs/documentation_best_practices.md)
 * [A Guide to Writing Your First Software Documentation](https://www.sitepoint.com/writing-software-documentation/)
-* [Why a format of your technical document matters](https://stepshot.net/reference-guide-or-procedural-manual-why-a-format-of-your-technical-document-matters/)
 * [Why agile teams should care about documentation](https://techbeacon.com/app-dev-testing/why-agile-teams-should-care-about-documentation)
 * [Search Engine Optimization (SEO) Starter Guide](https://support.google.com/webmasters/answer/7451184?hl=en)
 * [I'd Rather Be Writing, API glossary](https://idratherbewriting.com/learnapidoc/docapis_glossary_section.html)
 * [Developers Google, Link text](https://developers.google.com/style/link-text)
 * [Writing effective link text](https://www.webcredible.com/blog/writing-effective-link-text/)
-* [Infinite Scrolling Is Not for Every Website](https://www.nngroup.com/articles/infinite-scrolling/)
-* [Web Style Guide, Page length](https://webstyleguide.com/wsg2/page/length.html)
 * [DITA Reference topics](https://docs.oasis-open.org/dita/v1.2/os/spec/archSpec/dita_reference_topic.html)
 * [Data vs. Layout Tables](https://accessibility.umn.edu/tutorials/data-vs-layout-tables)
-* Read Me First! A Style Guide for the Computer Industry (pdf book)
