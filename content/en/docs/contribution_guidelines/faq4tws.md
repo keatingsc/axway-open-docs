@@ -49,9 +49,9 @@ Read about an sample implementation of the docs-as-code approach in this UK GOV 
 [Write the Docs](https://www.writethedocs.org/) is a global community of people who care about documentation. This community publishes many useful resources for TWs using or thinking of adopting the docs-as-code workflow. For example, this podcast provides some useful background on the docs-as-code approach. (https://podcast.writethedocs.org/2017/03/05/episode-4-continuous-integration-and-docs-like-code/)
 {{% /alert %}}
 
-References:
+Learn more
 
-* Atom Source Code Editor, https://atom.io/
-* Hugo Static Site Generator, https://gohugo.io/
-* Git Source Control System, https://git-scm.com/
-* GitHub Collaboration Tool, https://en.wikipedia.org/wiki/GitHub
+* [Atom - Source Code Editor](https://atom.io/)
+* [Hugo - Static Site Generator](https://gohugo.io/)
+* [Git - Source Control System](https://git-scm.com/)
+* [GitHub - Collaboration Tool](https://en.wikipedia.org/wiki/GitHub)
