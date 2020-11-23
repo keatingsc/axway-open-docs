@@ -14,6 +14,7 @@ It is important to structure your content in an easy-to-navigate manner to retai
 ### Navigation structure
 
 To develop a clear visual hierarchy on your website:
+
 * Organise menus by topic.
 * Group similar types of content under the same menu.
 * Use a maximum of two levels of submenu.
@@ -32,6 +33,7 @@ Example:
 Documentation should be searchable and easy to find. It is important to ensure documentation visibility on search engines.
 
 Some recommendations for using search engine optimization (SEO) include:
+
 * Create short, unique, and accurate page titles.
 * Link the order of menus to the importance of the content.
 * Follow the recommendations on [Use meaningful link text](#use-meaningful-link-text) to create link text for URLs.

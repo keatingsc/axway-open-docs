@@ -14,6 +14,7 @@ A docs-as-code workflow means applying software development processes and tools 
 ## What tools support the docs-as-code workflow?
 
 The four main categories of tooling in the workflow are:
+
 * [Source Code Editor](#source-code-editor)
 * [Static Site Generator](#static-site-generator)
 * [Source Control System](#source-control-system)
@@ -46,7 +47,7 @@ According to [Write the Docs](https://www.writethedocs.org/), a docs-as-code app
 Read about an sample implementation of the docs-as-code approach in this UK GOV [article](https://technology.blog.gov.uk/2017/08/25/why-we-use-a-docs-as-code-approach-for-technical-documentation/#:~:text=Docs%20as%20code%20means%20applying,and%20a%20content%20management%20system.).
 
 {{% alert title="Note" %}}
-[Write the Docs](https://www.writethedocs.org/) is a global community of people who care about documentation. This community publishes many useful resources for TWs using or thinking of adopting the docs-as-code workflow. For example, this podcast provides some useful background on the docs-as-code approach. (https://podcast.writethedocs.org/2017/03/05/episode-4-continuous-integration-and-docs-like-code/)
+[Write the Docs](https://www.writethedocs.org/) is a global community of people who care about documentation. This community publishes many useful resources for TWs using or thinking of adopting the docs-as-code workflow. For example, this podcast provides some useful background on the docs-as-code approach. [Write the Docs Podcast](https://podcast.writethedocs.org/2017/03/05/episode-4-continuous-integration-and-docs-like-code/)
 {{% /alert %}}
 
 Learn more
